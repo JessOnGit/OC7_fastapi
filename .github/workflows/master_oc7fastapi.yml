@@ -30,8 +30,6 @@ env:
   AZURE_WEBAPP_NAME: OC7fastapi  # set this to the name of your Azure Web App
 
 on:
-  push:
-    branches: [ "master" ]
   workflow_dispatch:
 
 permissions:
