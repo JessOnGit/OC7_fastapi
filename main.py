@@ -6,6 +6,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import pickle
+import lightgbm
+import sklearn
 
 app = FastAPI()
 model = pickle.load(open('model/model.pkl', 'rb'))
